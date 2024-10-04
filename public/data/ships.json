@@ -1,0 +1,451 @@
+[
+    {
+      "ship_id": 1,
+      "ship_name": "Ship A",
+      "type": "Cargo",
+      "status": "Active",
+      "classifications": [
+        {
+          "classification_name": "Deck",
+          "subcomponents": [
+            {
+              "component_name": "Anchor",
+              "subcomponents": [
+                {
+                  "subcomponent_name": "Chain",
+                  "maintenance": [
+                    {
+                      "id": 1,
+                      "status": "Good",
+                      "description": "Inspected",
+                      "details": [
+                        {
+                          "date": "2024-01-01",
+                          "note": "Routine inspection completed"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "subcomponent_name": "Shackle",
+                  "maintenance": [
+                    {
+                      "id": 2,
+                      "status": "Replace",
+                      "description": "Worn out",
+                      "details": [
+                        {
+                          "date": "2024-01-05",
+                          "note": "Needs immediate replacement"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "maintenance": [
+                {
+                  "id": 3,
+                  "status": "Good",
+                  "description": "Routine check",
+                  "details": [
+                    {
+                      "date": "2024-02-01",
+                      "note": "Checked all components"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "component_name": "Gangway",
+              "subcomponents": [
+                {
+                  "subcomponent_name": "Support Beam",
+                  "maintenance": [
+                    {
+                      "id": 4,
+                      "status": "Good",
+                      "description": "No issues",
+                      "details": [
+                        {
+                          "date": "2024-02-15",
+                          "note": "Verified structural integrity"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "maintenance": [
+                {
+                  "id": 5,
+                  "status": "In Maintenance",
+                  "description": "Check integrity",
+                  "details": [
+                    {
+                      "date": "2024-03-01",
+                      "note": "Needs thorough inspection"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "classification_name": "Engine",
+          "subcomponents": [
+            {
+              "component_name": "Diesel Engine",
+              "subcomponents": [
+                {
+                  "subcomponent_name": "Fuel Pump",
+                  "maintenance": [
+                    {
+                      "id": 6,
+                      "status": "Replace",
+                      "description": "Old pump",
+                      "details": [
+                        {
+                          "date": "2024-01-10",
+                          "note": "Replacement scheduled"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "subcomponent_name": "Oil Filter",
+                  "maintenance": [
+                    {
+                      "id": 7,
+                      "status": "Good",
+                      "description": "Changed recently",
+                      "details": [
+                        {
+                          "date": "2024-01-15",
+                          "note": "New filter installed"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "maintenance": [
+                {
+                  "id": 8,
+                  "status": "In Maintenance",
+                  "description": "Routine service",
+                  "details": [
+                    {
+                      "date": "2024-01-20",
+                      "note": "Scheduled maintenance performed"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "component_name": "Air Compressor",
+              "subcomponents": [
+                {
+                  "subcomponent_name": "Air Hose",
+                  "maintenance": [
+                    {
+                      "id": 9,
+                      "status": "Good",
+                      "description": "Checked",
+                      "details": [
+                        {
+                          "date": "2024-02-05",
+                          "note": "Air pressure normal"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "subcomponent_name": "Pressure Gauge",
+                  "maintenance": [
+                    {
+                      "id": 10,
+                      "status": "Replace",
+                      "description": "Malfunctioning",
+                      "details": [
+                        {
+                          "date": "2024-02-10",
+                          "note": "Needs immediate attention"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "maintenance": [
+                {
+                  "id": 11,
+                  "status": "Good",
+                  "description": "Functional",
+                  "details": [
+                    {
+                      "date": "2024-02-20",
+                      "note": "Verified operation"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "classification_name": "Safety",
+          "subcomponents": [
+            {
+              "component_name": "Lifeboat",
+              "subcomponents": [
+                {
+                  "subcomponent_name": "Rescue Rope",
+                  "maintenance": [
+                    {
+                      "id": 12,
+                      "status": "Good",
+                      "description": "Routine inspection",
+                      "details": [
+                        {
+                          "date": "2024-01-25",
+                          "note": "Condition checked"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "maintenance": [
+                {
+                  "id": 13,
+                  "status": "Good",
+                  "description": "Inspected",
+                  "details": [
+                    {
+                      "date": "2024-02-28",
+                      "note": "Safety features verified"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ship_id": 2,
+      "ship_name": "Ship B",
+      "type": "Passenger",
+      "status": "Maintenance",
+      "classifications": [
+        {
+          "classification_name": "Deck",
+          "subcomponents": [
+            {
+              "component_name": "Lifeboat",
+              "subcomponents": [
+                {
+                  "subcomponent_name": "Buoyancy Device",
+                  "maintenance": [
+                    {
+                      "id": 1,
+                      "status": "Good",
+                      "description": "Inspected",
+                      "details": [
+                        {
+                          "date": "2024-01-20",
+                          "note": "Routine check completed"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "subcomponent_name": "Emergency Oars",
+                  "maintenance": [
+                    {
+                      "id": 2,
+                      "status": "Good",
+                      "description": "Checked",
+                      "details": [
+                        {
+                          "date": "2024-01-22",
+                          "note": "All oars accounted for"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "maintenance": [
+                {
+                  "id": 3,
+                  "status": "Good",
+                  "description": "Overall check",
+                  "details": [
+                    {
+                      "date": "2024-01-25",
+                      "note": "All components verified"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "classification_name": "Engine",
+          "subcomponents": [
+            {
+              "component_name": "Gas Turbine",
+              "subcomponents": [
+                {
+                  "subcomponent_name": "Fuel Injector",
+                  "maintenance": [
+                    {
+                      "id": 4,
+                      "status": "Replace",
+                      "description": "Old unit",
+                      "details": [
+                        {
+                          "date": "2024-01-30",
+                          "note": "Replacement scheduled"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "subcomponent_name": "Oil Cooler",
+                  "maintenance": [
+                    {
+                      "id": 5,
+                      "status": "Good",
+                      "description": "Cleaned recently",
+                      "details": [
+                        {
+                          "date": "2024-02-02",
+                          "note": "Maintenance performed"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "maintenance": [
+                {
+                  "id": 6,
+                  "status": "In Maintenance",
+                  "description": "Service scheduled",
+                  "details": [
+                    {
+                      "date": "2024-02-05",
+                      "note": "Waiting for parts"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "classification_name": "Motor",
+          "subcomponents": [
+            {
+              "component_name": "Propeller",
+              "subcomponents": [
+                {
+                  "subcomponent_name": "Blade",
+                  "maintenance": [
+                    {
+                      "id": 7,
+                      "status": "Good",
+                      "description": "No issues",
+                      "details": [
+                        {
+                          "date": "2024-01-15",
+                          "note": "Inspected thoroughly"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "subcomponent_name": "Shaft",
+                  "maintenance": [
+                    {
+                      "id": 8,
+                      "status": "Replace",
+                      "description": "Worn out",
+                      "details": [
+                        {
+                          "date": "2024-01-20",
+                          "note": "Needs immediate replacement"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "maintenance": [
+                {
+                  "id": 9,
+                  "status": "In Maintenance",
+                  "description": "Check condition",
+                  "details": [
+                    {
+                      "date": "2024-02-01",
+                      "note": "Routine check required"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "component_name": "Battery",
+              "subcomponents": [
+                {
+                  "subcomponent_name": "Connector",
+                  "maintenance": [
+                    {
+                      "id": 10,
+                      "status": "Good",
+                      "description": "Checked",
+                      "details": [
+                        {
+                          "date": "2024-01-25",
+                          "note": "No issues found"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "maintenance": [
+                {
+                  "id": 11,
+                  "status": "Good",
+                  "description": "Functional",
+                  "details": [
+                    {
+                      "date": "2024-02-10",
+                      "note": "Condition verified"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+  

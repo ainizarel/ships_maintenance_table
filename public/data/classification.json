@@ -1,0 +1,173 @@
+{
+    "classifications": [
+      {
+        "classification_name": "Deck",
+        "children": [
+          {
+            "classification_name": "Anchor",
+            "subcomponents": [
+              {
+                "subcomponent_name": "Chain",
+                "maintenance": [
+                  {
+                    "id": 1,
+                    "status": "Good",
+                    "description": "Inspected",
+                    "details": [
+                      {
+                        "date": "2024-01-01",
+                        "note": "Routine inspection completed"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "subcomponent_name": "Shackle",
+                "maintenance": [
+                  {
+                    "id": 2,
+                    "status": "Replace",
+                    "description": "Worn out",
+                    "details": [
+                      {
+                        "date": "2024-01-05",
+                        "note": "Needs immediate replacement"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "classification_name": "Gangway",
+            "subcomponents": [
+              {
+                "subcomponent_name": "Support Beam",
+                "maintenance": [
+                  {
+                    "id": 4,
+                    "status": "Good",
+                    "description": "No issues",
+                    "details": [
+                      {
+                        "date": "2024-02-15",
+                        "note": "Verified structural integrity"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "classification_name": "Engine",
+        "children": [
+          {
+            "classification_name": "Diesel Engine",
+            "subcomponents": [
+              {
+                "subcomponent_name": "Fuel Pump",
+                "maintenance": [
+                  {
+                    "id": 6,
+                    "status": "Replace",
+                    "description": "Old pump",
+                    "details": [
+                      {
+                        "date": "2024-01-10",
+                        "note": "Replacement scheduled"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "subcomponent_name": "Oil Filter",
+                "maintenance": [
+                  {
+                    "id": 7,
+                    "status": "Good",
+                    "description": "Changed recently",
+                    "details": [
+                      {
+                        "date": "2024-01-15",
+                        "note": "New filter installed"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "classification_name": "Air Compressor",
+            "subcomponents": [
+              {
+                "subcomponent_name": "Air Hose",
+                "maintenance": [
+                  {
+                    "id": 9,
+                    "status": "Good",
+                    "description": "Checked",
+                    "details": [
+                      {
+                        "date": "2024-02-05",
+                        "note": "Air pressure normal"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "subcomponent_name": "Pressure Gauge",
+                "maintenance": [
+                  {
+                    "id": 10,
+                    "status": "Replace",
+                    "description": "Malfunctioning",
+                    "details": [
+                      {
+                        "date": "2024-02-10",
+                        "note": "Needs immediate attention"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "classification_name": "Safety",
+        "children": [
+          {
+            "classification_name": "Lifeboat",
+            "subcomponents": [
+              {
+                "subcomponent_name": "Rescue Rope",
+                "maintenance": [
+                  {
+                    "id": 12,
+                    "status": "Good",
+                    "description": "Routine inspection",
+                    "details": [
+                      {
+                        "date": "2024-01-25",
+                        "note": "Condition checked"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  
